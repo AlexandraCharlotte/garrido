@@ -13,7 +13,7 @@ var trabajos = [
     about: "Esta ave es llamada “Martín pescador” (Alcedo atthis), fue la segunda ave que realizaba en papel bond y con lápices escolares. Marca un hito para mí, ya que fue uno de los dibujos que me impulsó a seguir experimentando en el dibujo.",
 }, {
     figure: "media/Pavo 1.jpg",
-    title: "Pintura acrilica: Pavo real",
+    title: "Pintura acrílica: Pavo real",
     about: "Este “Pavo real”(Pavo cristatus) una de mis obras mas recientes pintada en un block de 30x40cm. de grano fino y especial para el uso de acrílicos. Esta pintura me tomó casi 12 días, trabajando en ella aproximadamente 4 horas diarias debido a la cantidad de detalles que esta tenía.",
 }, {
     figure: "media/antro.jpg",
