@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portafolio: Alexandra Garrido</title>
+    <meta name="title" content="Portafolio: Alexandra Garrido">
+    <link rel="icon" type="image/png" href="media/favicon.png" />    
+    <!-- Metadatos Genéricos -->
+    <meta name="description" content="Recopilación de obras mas significativas">
+    <meta name="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Schema.org for Google -->
+    <meta itemprop="name" content="*Mis proyectos y mi arte*">
+    <meta itemprop="description" content="Recopilación de obras mas significativas">
+    <meta itemprop="image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Mis proyectos y mi arte*">
+    <meta name="twitter:description" content="*descripción*">
+    <meta name="twitter:image" content="*cambiar por una URL de la imagen en línea*">
+    <!-- Metadatos para Open Graph general (Facebook y Pinterest) -->
+    <meta name="og:title" content="Mis proyectos y mi arte">
+    <meta name="og:description" content="Recopilación de obras mas significativas">
+    <meta name="og:image" content="*cambiar por una URL de la imagen en línea*">
+    <meta name="og:locale" content="es_CL">
+    <meta name="og:type" content="website">
+    <!-- Ahora vinculamos el estilo -->
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <div id="contenido">
+        <header>
+            <h1>Mis proyectos y mi arte</h1>
+            <h2>Recopilación de obras mas significativas</h2>
+        </header>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="media/video1.mp4" type="video/mp4">
+            <source src="media/video1.ogg" type="video/ogg">
+        </video>
+
+
+        <h3>Quien soy</h3>
+        <div id="somos">
+
+            <div class="dupla primera">
+                <h4>Alexandra Charlotte Garrido Valenzuela</h4>
+                <h5>Estudios: arte y diseño</h5>
+                <p> El año 2013 ingrese a estudiar Ingeniería, pero al conocer el “Major de diseño e innovación” me enamore del diseño y decidí realizar la articulación a esta carrera para así cambiar mi título a diseñador.
+                Desde muy pequeña me ha gustado el arte por lo cual de a poco he aprendiendo las diversas técnicas
+            </p>
+                <address><a href="mailto:acgarrido@uc.cl">acgarrido@uc.cl</a></address>
+            </div>
+
+            <div class="dupla segunda">
+                <h4>Mi yo artístico </h4>
+                <h5>Intereses personales</h5>
+                <p>Desde mi enseñanza básica fui bastante buena dibujando, pero retomé este hobbie el año 2017, realizando dibujos de aves y pintándolas con lápices de colores. Debido a esto el año 2018 decidí comenzar a conocer el mundo de la pintura acrílica por lo que comencé a realizar mis primeras pinturas.
+                </p>
+                <address><a href="https://www.instagram.com/lenatureart/">https://www.instagram.com/lenatureart/</a></address>
+            </div>
+            
+            <hr />
+        </div><!-- acá cerramos el div id="somos"-->
+
+        <h3>Portafolio</h3>
+        
+        <div id="portafolio">
+        
+            <!--acá se colocan y organizan las cosas con programación-->
+        
+        </div><!-- acá cerramos el div id="portafolio"-->
+
+        <footer>
+            <p>Portafolio Alexandra Garrido · Procesos de producción · primer semestre · 2019</p>
+        </footer>
+
+    </div><!-- acá abajo cerramos el div id="contenido"-->
+
+    <!-- Lo que sigue SI es PROGRAMACIÓN -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+    <script>
+        // ESTO SIRVE PARA ARREGLAR CADA ÍTEM DEL PORTAFOLIO COMO ALBAÑILERÍA (MASONRY)
+        window.onload = function() {
+            var container = document.querySelector('#portafolio');
+            var msnry = new Masonry(portafolio, {
+                itemSelector: '.item'
+            });
+        };
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="portafolio.js"></script>
+</body>
+
+</html>
