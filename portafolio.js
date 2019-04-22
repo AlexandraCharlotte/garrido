@@ -14,7 +14,7 @@ var trabajos = [
 }, {
     figure: "media/Pavo 1.jpg",
     title: "Pintura acrilica: Pavo real",
-    about: "Este “Pavo real” (Pavo cristatus) una de mis obras mas recientes pintada en un block de 30x40cm. de grano fino y especial para el uso de acrílicos. Esta pintura me tomó casi 12 días, trabajando en ella aproximadamente 4 horas diarias debido a la cantidad de detalles que esta tenía.",
+    about: "Este “Pavo real”(Pavo cristatus) una de mis obras mas recientes pintada en un block de 30x40cm. de grano fino y especial para el uso de acrílicos. Esta pintura me tomó casi 12 días, trabajando en ella aproximadamente 4 horas diarias debido a la cantidad de detalles que esta tenía.",
 }, {
     figure: "media/antro.jpg",
     title: "Investigación antropológica Metrogas",
