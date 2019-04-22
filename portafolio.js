@@ -25,8 +25,8 @@ var trabajos = [
     about: "En el curso “Laboratorio de ingeniería de diseños y sistemas” se nos propuso el desafío de explorar su propio proceso de ideación y la interacción de equipo para enfrentar las limitaciones, desafíos y problemáticas propuestas por una organización u empresa. Nuestra contraparte en este desafío era “La máquina de afilar” que es una empresa que realizaba un servicio de afilar cuchillos, pero que tenia problemas de organización y perdidas de productos. Con estas problemáticas realizamos nuestra solución que consistía en un holder de cuchillos con sensor y una maleta con sensor de proximidad.",
 }, {
     figure: "media/protenis.jpg",
-    title: "Desafios de la ingeniería: Mesa protenis",
-    about: "El curso “Desafios de la ingeniería” nos dio el desafío de realizar algún producto que beneficiara a algún deporte. A base de encuestas e investigación nos dimos cuenta de que el tenis de mesa no tenía ninguna “mejora” así que nos enfocamos en él y realizamos una mesa interactiva para ayudar al entrenamiento, que constaba de 6 agujeros los cuales tenían cada uno una luz led que se prendía random para que el jugador practicara su precisión en los tiros. Con este proyecto logramos presentarnos entre el grupo de los mejores del semestre. ",
+    title: "Desafíos de la ingeniería: Mesa protenis" ,
+    about: "El curso “Desafíos de la ingeniería” nos dio el desafío de realizar algún producto que beneficiara a algún deporte. A base de encuestas e investigación nos dimos cuenta de que el tenis de mesa no tenía ninguna “mejora” así que nos enfocamos en él y realizamos una mesa interactiva para ayudar al entrenamiento, que constaba de 6 agujeros los cuales tenían cada uno una luz led que se prendía random para que el jugador practicara su precisión en los tiros. Con este proyecto logramos presentarnos entre el grupo de los mejores del semestre. ",
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
